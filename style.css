@@ -1,0 +1,169 @@
+:root{
+    color:  rgb(255,53,94) ;
+}
+body{
+    background-color:rgb(255,53,94);
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Hotel-bg{
+    background-color: white;
+    height: 1050px;
+    width: 100%;
+    
+   
+   
+}
+header{
+    display: flex;
+    /* position: fixed; */
+    
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.111);
+   
+}
+.search-bar{
+    background-color: rgba(128, 128, 128, 0.247);
+    border: none;
+    padding: 6px 55px 6px 55px ;
+    border-radius: 30px;
+    margin: o 50px 0px 5opx;
+   
+    
+}
+.logo{
+    width: 30px;
+    margin-right:150px ;
+}
+
+nav{
+    margin: 0px 5px 0px 40px;
+
+    
+}
+nav , svg ,img, span {
+    padding-left: 15px;
+}
+.abhi-img{
+    width: 25px;
+    height: 25px;
+    padding: 2px 5px 2px 5px ;
+    border-radius: 50px;
+}
+.section-2{
+    position: relative;
+ display: flex;
+ width: 200px;
+ flex-direction: row;
+ /* justify-content: space-between; */
+ align-items: flex-start;
+}
+.sidebar{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    /* border: 3px solid blue; */
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+   /* margin-top: -14px; */
+   
+}
+.sidebar ul{
+    list-style: none;
+  
+}
+.sidebar a{
+    text-decoration: none;
+    font-size: 18px;
+    display: list-item;
+    padding: 10px;
+    transition: .4s;
+    color: white;
+    
+   
+}
+.sidebar a:hover{
+   background-color:  rgb(255,53,94);
+   animation: ScaleY 3s alternate infinite;
+ 
+}
+.hotel-images{
+    display: flex;
+    right: 0;
+    margin-top: -1000px;
+    margin-left: 197px;
+   
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+   
+    
+
+
+.hotel-images img{
+    margin: 4px -8px 0px -8px;
+    width: 415px;
+    height: 200px;
+}
+.hotel-name-place{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+    border: 1px solid black;
+}
+.hotel-name-place h2{
+    color: rgba(0, 0, 0, 0.662);
+}
+
+.hotel-discription{
+    color: rgba(128, 128, 128, 0.8);
+    margin-left: 250px;
+    margin-top: 75px;
+    width: 600px;
+    height: 550px;
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 6px;
+    
+    box-shadow: 0px 3px 19px 9px ;
+
+}
+
+.hotel-name-place a{
+    color:  rgb(255,53,94);
+    
+}
+
+.hotel-comments{
+    margin-left: 950px;
+    margin-top: -540px;
+    color: rgb(76, 75, 75);
+    width: 400px;
+    height: 550px;
+
+}
+.hotel-comments div{
+    box-shadow: 2px 2px 2px 2px;
+    height: 200px;
+    width: 130px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.hotel-comments div img{
+    width: 25px;
+    height: 25px;
+    
+    padding: 2px 5px 2px 5px ;
+    border-radius: 50px;
+}
+
+
+   
